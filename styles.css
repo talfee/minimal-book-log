@@ -1,0 +1,50 @@
+body {
+  font-family: "Jomolhari", serif;
+  background-color: rgb(237, 235, 235);
+  margin: 0;
+}
+
+h1 {
+  margin: 4rem 7rem 1rem 7rem;
+  font-weight: 600;
+  letter-spacing: -0.05rem;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: -0.05rem;
+}
+
+p {
+  margin: 0;
+  font-weight: 500;
+}
+
+footer {
+  margin: 4rem;
+  font-size: 0.9rem;
+  /* align-self: center; */
+  color: rgb(100, 100, 100);
+}
+.reviews {
+  margin: 0 7rem;
+  border: 1.5px solid rgb(57, 57, 57);
+  border-radius: 0.75rem;
+  padding: 1rem;
+}
+
+.review {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 1rem; */
+  /* margin-bottom: 1rem; */
+}
+
+.review-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
